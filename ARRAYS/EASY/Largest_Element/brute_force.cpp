@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// Selection Sort
 void Sort(int arr[], int n)
 {
   for (int i = 0; i < n; i++)
@@ -21,8 +22,8 @@ void Sort(int arr[], int n)
 int largest(int arr[], int n)
 {
   Sort(arr, n);
-  int largest = arr[n - 1];
-  return largest;
+  int large = arr[n - 1];
+  return large;
 }
 
 int main()
